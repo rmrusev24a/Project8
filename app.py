@@ -21,7 +21,7 @@ if st.button("Add"):
   else:
     st.warning("Fill every field!")
 
-if st.session_state.animals:
+if st.session_state.movies:
   st.header("Remove movie")
 
   name = []
