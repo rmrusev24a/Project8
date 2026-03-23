@@ -30,7 +30,7 @@ if st.session_state.animals:
 
     remove_name = st.selectbox("Choose movie to remove", names)
     
-if st.button("Remove")
+if st.button("Remove"):
   for a in st.session_state.movies:
     if a["name"] == remove_name:
       st.session_state.movies.remove(a)
