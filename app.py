@@ -16,7 +16,7 @@ if st.button("Add"):
       "name": name,
       "description": description,
       "image": image_url
-    )}
+    })
     st.success(f"{name} is added!")
   else:
     st.warning("Fill every field!")
